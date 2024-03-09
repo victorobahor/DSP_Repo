@@ -1,0 +1,13 @@
+version: '2'
+services:
+  element_0:
+    image: 'mykali-light:latest'
+    stdin_open: true
+    tty: true
+    networks:
+      network_0: {}
+networks:
+  network_0:
+    ipam:
+      config:
+        - subnet: 193.20.1.1/24
