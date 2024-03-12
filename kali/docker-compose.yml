@@ -1,13 +1,14 @@
 version: '2'
 services:
   element_0:
-    image: 'mykali-light:latest'
+    image: 'output_hnode_40_kali:latest'
     stdin_open: true
     tty: true
     networks:
-      network_0: {}
+      network: {}
 networks:
-  network_0:
+  network:
+    driver: bridge
     ipam:
       config:
         - subnet: 193.20.1.1/24
