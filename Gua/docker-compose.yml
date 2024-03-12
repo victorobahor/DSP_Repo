@@ -37,7 +37,7 @@ services:
     networks:
       guacnetwork_compose:
     ports:
-      - 8080/tcp
+      - 8080:8080
     restart: always
 networks:
   guacnetwork_compose:
