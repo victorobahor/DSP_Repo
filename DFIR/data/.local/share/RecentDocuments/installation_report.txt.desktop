@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-plain
+Name=installation_report.txt
+Type=Link
+URL[$e]=file:///installation_report/installation_report.txt
+X-KDE-LastOpenedWith=org.kde.kwrite

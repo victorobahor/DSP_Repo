@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-plain
+Name=pyproject.toml
+Type=Link
+URL[$e]=file:///tools/lab/tools/time_decode/pyproject.toml
+X-KDE-LastOpenedWith=org.kde.kwrite

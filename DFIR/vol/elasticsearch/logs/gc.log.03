@@ -1,0 +1,192 @@
+[2024-04-20T15:22:22.430+0000][7][gc] Using G1
+[2024-04-20T15:22:22.499+0000][7][gc,init] Version: 15.0.1+9 (release)
+[2024-04-20T15:22:22.499+0000][7][gc,init] CPUs: 4 total, 4 available
+[2024-04-20T15:22:22.499+0000][7][gc,init] Memory: 7942M
+[2024-04-20T15:22:22.499+0000][7][gc,init] Large Page Support: Disabled
+[2024-04-20T15:22:22.499+0000][7][gc,init] NUMA Support: Disabled
+[2024-04-20T15:22:22.499+0000][7][gc,init] Compressed Oops: Enabled (32-bit)
+[2024-04-20T15:22:22.499+0000][7][gc,init] Heap Region Size: 4M
+[2024-04-20T15:22:22.499+0000][7][gc,init] Heap Min Capacity: 256M
+[2024-04-20T15:22:22.499+0000][7][gc,init] Heap Initial Capacity: 256M
+[2024-04-20T15:22:22.499+0000][7][gc,init] Heap Max Capacity: 256M
+[2024-04-20T15:22:22.499+0000][7][gc,init] Pre-touch: Enabled
+[2024-04-20T15:22:22.499+0000][7][gc,init] Parallel Workers: 4
+[2024-04-20T15:22:22.499+0000][7][gc,init] Concurrent Workers: 1
+[2024-04-20T15:22:22.499+0000][7][gc,init] Concurrent Refinement Workers: 4
+[2024-04-20T15:22:22.499+0000][7][gc,init] Periodic GC: Disabled
+[2024-04-20T15:22:22.499+0000][7][gc,cds ] Mark closed archive regions in map: [0x00000000ffc00000, 0x00000000ffc7bff8]
+[2024-04-20T15:22:22.499+0000][7][gc,cds ] Mark open archive regions in map: [0x00000000ffb00000, 0x00000000ffb51ff8]
+[2024-04-20T15:22:22.499+0000][7][gc,metaspace] CDS archive(s) mapped at: [0x0000000800000000-0x0000000800b2a000-0x0000000800b2a000), size 11706368, SharedBaseAddress: 0x0000000800000000, ArchiveRelocationMode: 0.
+[2024-04-20T15:22:22.499+0000][7][gc,metaspace] Compressed class space mapped at: 0x0000000800b2c000-0x0000000840b2c000, size: 1073741824
+[2024-04-20T15:22:22.499+0000][7][gc,metaspace] Narrow klass base: 0x0000000800000000, Narrow klass shift: 3, Narrow klass range: 0x100000000
+[2024-04-20T15:22:23.361+0000][7][gc,start    ] GC(0) Pause Young (Normal) (G1 Evacuation Pause)
+[2024-04-20T15:22:23.368+0000][7][gc,task     ] GC(0) Using 4 workers of 4 for evacuation
+[2024-04-20T15:22:23.368+0000][7][gc,age      ] GC(0) Desired survivor size 2097152 bytes, new threshold 15 (max threshold 15)
+[2024-04-20T15:22:23.394+0000][7][gc,age      ] GC(0) Age table with threshold 15 (max threshold 15)
+[2024-04-20T15:22:23.394+0000][7][gc,age      ] GC(0) - age   1:    2968752 bytes,    2968752 total
+[2024-04-20T15:22:23.394+0000][7][gc,phases   ] GC(0)   Pre Evacuate Collection Set: 0.1ms
+[2024-04-20T15:22:23.394+0000][7][gc,phases   ] GC(0)   Merge Heap Roots: 0.0ms
+[2024-04-20T15:22:23.394+0000][7][gc,phases   ] GC(0)   Evacuate Collection Set: 22.8ms
+[2024-04-20T15:22:23.394+0000][7][gc,phases   ] GC(0)   Post Evacuate Collection Set: 2.8ms
+[2024-04-20T15:22:23.394+0000][7][gc,phases   ] GC(0)   Other: 6.5ms
+[2024-04-20T15:22:23.394+0000][7][gc,heap     ] GC(0) Eden regions: 3->0(2)
+[2024-04-20T15:22:23.394+0000][7][gc,heap     ] GC(0) Survivor regions: 0->1(1)
+[2024-04-20T15:22:23.394+0000][7][gc,heap     ] GC(0) Old regions: 0->0
+[2024-04-20T15:22:23.394+0000][7][gc,heap     ] GC(0) Archive regions: 2->2
+[2024-04-20T15:22:23.394+0000][7][gc,heap     ] GC(0) Humongous regions: 0->0
+[2024-04-20T15:22:23.394+0000][7][gc,metaspace] GC(0) Metaspace: 3603K(6528K)->3603K(6528K) NonClass: 3250K(5888K)->3250K(5888K) Class: 352K(640K)->352K(640K)
+[2024-04-20T15:22:23.394+0000][7][gc          ] GC(0) Pause Young (Normal) (G1 Evacuation Pause) 15M->6M(256M) 32.346ms
+[2024-04-20T15:22:23.394+0000][7][gc,cpu      ] GC(0) User=0.00s Sys=0.00s Real=0.03s
+[2024-04-20T15:22:23.394+0000][7][safepoint   ] Safepoint "G1CollectForAllocation", Time since last: 851400009 ns, Reaching safepoint: 143338 ns, At safepoint: 32410490 ns, Total: 32553828 ns
+[2024-04-20T15:22:24.089+0000][7][gc,start    ] GC(1) Pause Young (Normal) (G1 Evacuation Pause)
+[2024-04-20T15:22:24.089+0000][7][gc,task     ] GC(1) Using 4 workers of 4 for evacuation
+[2024-04-20T15:22:24.089+0000][7][gc,age      ] GC(1) Desired survivor size 2097152 bytes, new threshold 1 (max threshold 15)
+[2024-04-20T15:22:24.101+0000][7][gc,age      ] GC(1) Age table with threshold 1 (max threshold 15)
+[2024-04-20T15:22:24.101+0000][7][gc,age      ] GC(1) - age   1:     893160 bytes,     893160 total
+[2024-04-20T15:22:24.101+0000][7][gc,phases   ] GC(1)   Pre Evacuate Collection Set: 2.4ms
+[2024-04-20T15:22:24.101+0000][7][gc,phases   ] GC(1)   Merge Heap Roots: 0.0ms
+[2024-04-20T15:22:24.101+0000][7][gc,phases   ] GC(1)   Evacuate Collection Set: 8.7ms
+[2024-04-20T15:22:24.101+0000][7][gc,phases   ] GC(1)   Post Evacuate Collection Set: 0.9ms
+[2024-04-20T15:22:24.101+0000][7][gc,phases   ] GC(1)   Other: 0.2ms
+[2024-04-20T15:22:24.101+0000][7][gc,heap     ] GC(1) Eden regions: 2->0(5)
+[2024-04-20T15:22:24.101+0000][7][gc,heap     ] GC(1) Survivor regions: 1->1(1)
+[2024-04-20T15:22:24.101+0000][7][gc,heap     ] GC(1) Old regions: 0->1
+[2024-04-20T15:22:24.101+0000][7][gc,heap     ] GC(1) Archive regions: 2->2
+[2024-04-20T15:22:24.101+0000][7][gc,heap     ] GC(1) Humongous regions: 0->0
+[2024-04-20T15:22:24.101+0000][7][gc,metaspace] GC(1) Metaspace: 6813K(8960K)->6813K(8960K) NonClass: 6048K(7936K)->6048K(7936K) Class: 765K(1024K)->765K(1024K)
+[2024-04-20T15:22:24.101+0000][7][gc          ] GC(1) Pause Young (Normal) (G1 Evacuation Pause) 14M->7M(256M) 12.249ms
+[2024-04-20T15:22:24.101+0000][7][gc,cpu      ] GC(1) User=0.00s Sys=0.00s Real=0.02s
+[2024-04-20T15:22:24.101+0000][7][safepoint   ] Safepoint "G1CollectForAllocation", Time since last: 694115161 ns, Reaching safepoint: 985060 ns, At safepoint: 12361362 ns, Total: 13346422 ns
+[2024-04-20T15:22:25.138+0000][7][safepoint   ] Safepoint "Cleanup", Time since last: 1036894920 ns, Reaching safepoint: 198421 ns, At safepoint: 2825 ns, Total: 201246 ns
+[2024-04-20T15:22:25.788+0000][7][gc,start    ] GC(2) Pause Young (Normal) (G1 Evacuation Pause)
+[2024-04-20T15:22:25.788+0000][7][gc,task     ] GC(2) Using 4 workers of 4 for evacuation
+[2024-04-20T15:22:25.788+0000][7][gc,age      ] GC(2) Desired survivor size 2097152 bytes, new threshold 15 (max threshold 15)
+[2024-04-20T15:22:25.861+0000][7][gc,age      ] GC(2) Age table with threshold 15 (max threshold 15)
+[2024-04-20T15:22:25.861+0000][7][gc,age      ] GC(2) - age   1:    1834632 bytes,    1834632 total
+[2024-04-20T15:22:25.861+0000][7][gc,age      ] GC(2) - age   2:     845280 bytes,    2679912 total
+[2024-04-20T15:22:25.861+0000][7][gc,phases   ] GC(2)   Pre Evacuate Collection Set: 0.0ms
+[2024-04-20T15:22:25.861+0000][7][gc,phases   ] GC(2)   Merge Heap Roots: 0.0ms
+[2024-04-20T15:22:25.861+0000][7][gc,phases   ] GC(2)   Evacuate Collection Set: 62.9ms
+[2024-04-20T15:22:25.861+0000][7][gc,phases   ] GC(2)   Post Evacuate Collection Set: 10.2ms
+[2024-04-20T15:22:25.861+0000][7][gc,phases   ] GC(2)   Other: 0.2ms
+[2024-04-20T15:22:25.861+0000][7][gc,heap     ] GC(2) Eden regions: 5->0(22)
+[2024-04-20T15:22:25.861+0000][7][gc,heap     ] GC(2) Survivor regions: 1->1(1)
+[2024-04-20T15:22:25.861+0000][7][gc,heap     ] GC(2) Old regions: 1->1
+[2024-04-20T15:22:25.861+0000][7][gc,heap     ] GC(2) Archive regions: 2->2
+[2024-04-20T15:22:25.861+0000][7][gc,heap     ] GC(2) Humongous regions: 0->0
+[2024-04-20T15:22:25.861+0000][7][gc,metaspace] GC(2) Metaspace: 11677K(12032K)->11677K(12032K) NonClass: 10263K(10496K)->10263K(10496K) Class: 1414K(1536K)->1414K(1536K)
+[2024-04-20T15:22:25.861+0000][7][gc          ] GC(2) Pause Young (Normal) (G1 Evacuation Pause) 27M->9M(256M) 73.386ms
+[2024-04-20T15:22:25.861+0000][7][gc,cpu      ] GC(2) User=0.02s Sys=0.00s Real=0.08s
+[2024-04-20T15:22:25.864+0000][7][safepoint   ] Safepoint "G1CollectForAllocation", Time since last: 649062149 ns, Reaching safepoint: 189815 ns, At safepoint: 76173191 ns, Total: 76363006 ns
+[2024-04-20T15:22:27.305+0000][7][safepoint   ] Safepoint "Cleanup", Time since last: 1439917961 ns, Reaching safepoint: 869765 ns, At safepoint: 17253 ns, Total: 887018 ns
+[2024-04-20T15:22:28.322+0000][7][safepoint   ] Safepoint "Cleanup", Time since last: 1004421517 ns, Reaching safepoint: 10524224 ns, At safepoint: 2784813 ns, Total: 13309037 ns
+[2024-04-20T15:22:28.795+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 472826713 ns, Reaching safepoint: 184224 ns, At safepoint: 3827 ns, Total: 188051 ns
+[2024-04-20T15:22:28.835+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 39280254 ns, Reaching safepoint: 446003 ns, At safepoint: 5190 ns, Total: 451193 ns
+[2024-04-20T15:22:28.844+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 8953318 ns, Reaching safepoint: 102631 ns, At safepoint: 14037 ns, Total: 116668 ns
+[2024-04-20T15:22:28.869+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 24255769 ns, Reaching safepoint: 299870 ns, At safepoint: 27812 ns, Total: 327682 ns
+[2024-04-20T15:22:28.914+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 36290733 ns, Reaching safepoint: 9372681 ns, At safepoint: 39824 ns, Total: 9412505 ns
+[2024-04-20T15:22:28.931+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 16675527 ns, Reaching safepoint: 170669 ns, At safepoint: 3817 ns, Total: 174486 ns
+[2024-04-20T15:22:28.959+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 21958777 ns, Reaching safepoint: 5844168 ns, At safepoint: 33643 ns, Total: 5877811 ns
+[2024-04-20T15:22:28.971+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 9925965 ns, Reaching safepoint: 1577518 ns, At safepoint: 9988 ns, Total: 1587506 ns
+[2024-04-20T15:22:28.994+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 16176385 ns, Reaching safepoint: 7407369 ns, At safepoint: 26640 ns, Total: 7434009 ns
+[2024-04-20T15:22:29.038+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 17557874 ns, Reaching safepoint: 26251841 ns, At safepoint: 33182 ns, Total: 26285023 ns
+[2024-04-20T15:22:29.045+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 7019485 ns, Reaching safepoint: 148598 ns, At safepoint: 13425 ns, Total: 162023 ns
+[2024-04-20T15:22:29.066+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 20437497 ns, Reaching safepoint: 145922 ns, At safepoint: 7905 ns, Total: 153827 ns
+[2024-04-20T15:22:29.074+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 4520777 ns, Reaching safepoint: 3676740 ns, At safepoint: 7995 ns, Total: 3684735 ns
+[2024-04-20T15:22:29.091+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 16902562 ns, Reaching safepoint: 131997 ns, At safepoint: 4689 ns, Total: 136686 ns
+[2024-04-20T15:22:29.097+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 1625777 ns, Reaching safepoint: 4765594 ns, At safepoint: 20558 ns, Total: 4786152 ns
+[2024-04-20T15:22:29.100+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 1971273 ns, Reaching safepoint: 81903 ns, At safepoint: 3507 ns, Total: 85410 ns
+[2024-04-20T15:22:29.102+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 2093812 ns, Reaching safepoint: 101029 ns, At safepoint: 4839 ns, Total: 105868 ns
+[2024-04-20T15:22:29.112+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 10428115 ns, Reaching safepoint: 104926 ns, At safepoint: 5069 ns, Total: 109995 ns
+[2024-04-20T15:22:29.124+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 11345959 ns, Reaching safepoint: 153317 ns, At safepoint: 6743 ns, Total: 160060 ns
+[2024-04-20T15:22:29.125+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 1212345 ns, Reaching safepoint: 99686 ns, At safepoint: 2605 ns, Total: 102291 ns
+[2024-04-20T15:22:29.126+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 645727 ns, Reaching safepoint: 114023 ns, At safepoint: 3326 ns, Total: 117349 ns
+[2024-04-20T15:22:29.126+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 502819 ns, Reaching safepoint: 52248 ns, At safepoint: 9397 ns, Total: 61645 ns
+[2024-04-20T15:22:29.127+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 797380 ns, Reaching safepoint: 68318 ns, At safepoint: 11561 ns, Total: 79879 ns
+[2024-04-20T15:22:29.129+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 1320097 ns, Reaching safepoint: 79568 ns, At safepoint: 12844 ns, Total: 92412 ns
+[2024-04-20T15:22:29.144+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 15136311 ns, Reaching safepoint: 97763 ns, At safepoint: 4198 ns, Total: 101961 ns
+[2024-04-20T15:22:29.145+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 1145911 ns, Reaching safepoint: 54151 ns, At safepoint: 3316 ns, Total: 57467 ns
+[2024-04-20T15:22:29.146+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 877760 ns, Reaching safepoint: 38742 ns, At safepoint: 3277 ns, Total: 42019 ns
+[2024-04-20T15:22:29.147+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 763566 ns, Reaching safepoint: 45395 ns, At safepoint: 11902 ns, Total: 57297 ns
+[2024-04-20T15:22:29.149+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 2329563 ns, Reaching safepoint: 106268 ns, At safepoint: 14788 ns, Total: 121056 ns
+[2024-04-20T15:22:29.155+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 4324190 ns, Reaching safepoint: 907702 ns, At safepoint: 8125 ns, Total: 915827 ns
+[2024-04-20T15:22:29.157+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 1165628 ns, Reaching safepoint: 803251 ns, At safepoint: 4408 ns, Total: 807659 ns
+[2024-04-20T15:22:29.166+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 9629055 ns, Reaching safepoint: 91702 ns, At safepoint: 3787 ns, Total: 95489 ns
+[2024-04-20T15:22:29.170+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 589882 ns, Reaching safepoint: 3402607 ns, At safepoint: 7043 ns, Total: 3409650 ns
+[2024-04-20T15:22:29.174+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 4141309 ns, Reaching safepoint: 73387 ns, At safepoint: 3486 ns, Total: 76873 ns
+[2024-04-20T15:22:29.175+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 497861 ns, Reaching safepoint: 47408 ns, At safepoint: 2555 ns, Total: 49963 ns
+[2024-04-20T15:22:29.176+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 492320 ns, Reaching safepoint: 38983 ns, At safepoint: 2464 ns, Total: 41447 ns
+[2024-04-20T15:22:29.205+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 29516099 ns, Reaching safepoint: 101440 ns, At safepoint: 3216 ns, Total: 104656 ns
+[2024-04-20T15:22:29.230+0000][7][gc,start    ] GC(3) Pause Young (Normal) (G1 Evacuation Pause)
+[2024-04-20T15:22:29.230+0000][7][gc,task     ] GC(3) Using 4 workers of 4 for evacuation
+[2024-04-20T15:22:29.230+0000][7][gc,age      ] GC(3) Desired survivor size 6291456 bytes, new threshold 15 (max threshold 15)
+[2024-04-20T15:22:29.271+0000][7][gc,age      ] GC(3) Age table with threshold 15 (max threshold 15)
+[2024-04-20T15:22:29.271+0000][7][gc,age      ] GC(3) - age   1:    3280136 bytes,    3280136 total
+[2024-04-20T15:22:29.271+0000][7][gc,age      ] GC(3) - age   2:    1716992 bytes,    4997128 total
+[2024-04-20T15:22:29.271+0000][7][gc,age      ] GC(3) - age   3:     839336 bytes,    5836464 total
+[2024-04-20T15:22:29.271+0000][7][gc,phases   ] GC(3)   Pre Evacuate Collection Set: 0.0ms
+[2024-04-20T15:22:29.271+0000][7][gc,phases   ] GC(3)   Merge Heap Roots: 2.9ms
+[2024-04-20T15:22:29.271+0000][7][gc,phases   ] GC(3)   Evacuate Collection Set: 27.1ms
+[2024-04-20T15:22:29.271+0000][7][gc,phases   ] GC(3)   Post Evacuate Collection Set: 11.2ms
+[2024-04-20T15:22:29.271+0000][7][gc,phases   ] GC(3)   Other: 0.2ms
+[2024-04-20T15:22:29.271+0000][7][gc,heap     ] GC(3) Eden regions: 22->0(36)
+[2024-04-20T15:22:29.271+0000][7][gc,heap     ] GC(3) Survivor regions: 1->2(3)
+[2024-04-20T15:22:29.271+0000][7][gc,heap     ] GC(3) Old regions: 1->1
+[2024-04-20T15:22:29.271+0000][7][gc,heap     ] GC(3) Archive regions: 2->2
+[2024-04-20T15:22:29.271+0000][7][gc,heap     ] GC(3) Humongous regions: 0->0
+[2024-04-20T15:22:29.271+0000][7][gc,metaspace] GC(3) Metaspace: 16228K(17024K)->16228K(17024K) NonClass: 14281K(14848K)->14281K(14848K) Class: 1946K(2176K)->1946K(2176K)
+[2024-04-20T15:22:29.271+0000][7][gc          ] GC(3) Pause Young (Normal) (G1 Evacuation Pause) 97M->12M(256M) 41.522ms
+[2024-04-20T15:22:29.272+0000][7][gc,cpu      ] GC(3) User=0.04s Sys=0.00s Real=0.04s
+[2024-04-20T15:22:29.272+0000][7][safepoint   ] Safepoint "G1CollectForAllocation", Time since last: 24235132 ns, Reaching safepoint: 499543 ns, At safepoint: 41618124 ns, Total: 42117667 ns
+[2024-04-20T15:22:29.967+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 695766358 ns, Reaching safepoint: 162573 ns, At safepoint: 4409 ns, Total: 166982 ns
+[2024-04-20T15:22:29.975+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 3680078 ns, Reaching safepoint: 4178027 ns, At safepoint: 26149 ns, Total: 4204176 ns
+[2024-04-20T15:22:29.989+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 6518239 ns, Reaching safepoint: 6713113 ns, At safepoint: 23965 ns, Total: 6737078 ns
+[2024-04-20T15:22:30.019+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 4688681 ns, Reaching safepoint: 25328861 ns, At safepoint: 38442 ns, Total: 25367303 ns
+[2024-04-20T15:22:30.030+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 9417577 ns, Reaching safepoint: 1588879 ns, At safepoint: 20008 ns, Total: 1608887 ns
+[2024-04-20T15:22:30.173+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 139582569 ns, Reaching safepoint: 4082207 ns, At safepoint: 6823 ns, Total: 4089030 ns
+[2024-04-20T15:22:30.179+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 5778257 ns, Reaching safepoint: 93474 ns, At safepoint: 21551 ns, Total: 115025 ns
+[2024-04-20T15:22:30.184+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 3502224 ns, Reaching safepoint: 786609 ns, At safepoint: 8927 ns, Total: 795536 ns
+[2024-04-20T15:22:30.188+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 1931920 ns, Reaching safepoint: 2572777 ns, At safepoint: 20188 ns, Total: 2592965 ns
+[2024-04-20T15:22:30.195+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 6568614 ns, Reaching safepoint: 72475 ns, At safepoint: 13956 ns, Total: 86431 ns
+[2024-04-20T15:22:30.205+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 10673824 ns, Reaching safepoint: 67777 ns, At safepoint: 4168 ns, Total: 71945 ns
+[2024-04-20T15:22:30.206+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 634355 ns, Reaching safepoint: 55934 ns, At safepoint: 11282 ns, Total: 67216 ns
+[2024-04-20T15:22:30.207+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 445272 ns, Reaching safepoint: 46016 ns, At safepoint: 9597 ns, Total: 55613 ns
+[2024-04-20T15:22:30.213+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 5749344 ns, Reaching safepoint: 85359 ns, At safepoint: 16621 ns, Total: 101980 ns
+[2024-04-20T15:22:30.213+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 694347 ns, Reaching safepoint: 57348 ns, At safepoint: 11351 ns, Total: 68699 ns
+[2024-04-20T15:22:30.215+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 1863662 ns, Reaching safepoint: 56516 ns, At safepoint: 3146 ns, Total: 59662 ns
+[2024-04-20T15:22:30.225+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 9770016 ns, Reaching safepoint: 117619 ns, At safepoint: 16341 ns, Total: 133960 ns
+[2024-04-20T15:22:30.226+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 610240 ns, Reaching safepoint: 54191 ns, At safepoint: 11973 ns, Total: 66164 ns
+[2024-04-20T15:22:30.226+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 509953 ns, Reaching safepoint: 51045 ns, At safepoint: 9117 ns, Total: 60162 ns
+[2024-04-20T15:22:30.229+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 2334372 ns, Reaching safepoint: 81472 ns, At safepoint: 12985 ns, Total: 94457 ns
+[2024-04-20T15:22:30.232+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 558894 ns, Reaching safepoint: 2525088 ns, At safepoint: 13656 ns, Total: 2538744 ns
+[2024-04-20T15:22:30.232+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 510924 ns, Reaching safepoint: 52048 ns, At safepoint: 8816 ns, Total: 60864 ns
+[2024-04-20T15:22:30.236+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 3444156 ns, Reaching safepoint: 104144 ns, At safepoint: 13345 ns, Total: 117489 ns
+[2024-04-20T15:22:30.244+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 8208899 ns, Reaching safepoint: 142867 ns, At safepoint: 19797 ns, Total: 162664 ns
+[2024-04-20T15:22:30.252+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 6780530 ns, Reaching safepoint: 291725 ns, At safepoint: 23604 ns, Total: 315329 ns
+[2024-04-20T15:22:30.396+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 141789125 ns, Reaching safepoint: 2376992 ns, At safepoint: 24426 ns, Total: 2401418 ns
+[2024-04-20T15:22:30.402+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 980672 ns, Reaching safepoint: 2886834 ns, At safepoint: 2874281 ns, Total: 5761115 ns
+[2024-04-20T15:22:30.404+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 1351295 ns, Reaching safepoint: 265717 ns, At safepoint: 4077 ns, Total: 269794 ns
+[2024-04-20T15:22:30.405+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 816245 ns, Reaching safepoint: 31539 ns, At safepoint: 2485 ns, Total: 34024 ns
+[2024-04-20T15:22:30.405+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 477803 ns, Reaching safepoint: 22492 ns, At safepoint: 2054 ns, Total: 24546 ns
+[2024-04-20T15:22:30.406+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 449850 ns, Reaching safepoint: 21110 ns, At safepoint: 2064 ns, Total: 23174 ns
+[2024-04-20T15:22:30.409+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 428420 ns, Reaching safepoint: 2182148 ns, At safepoint: 14887 ns, Total: 2197035 ns
+[2024-04-20T15:22:30.409+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 692885 ns, Reaching safepoint: 185537 ns, At safepoint: 14587 ns, Total: 200124 ns
+[2024-04-20T15:22:30.410+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 512107 ns, Reaching safepoint: 68878 ns, At safepoint: 9819 ns, Total: 78697 ns
+[2024-04-20T15:22:30.411+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 461171 ns, Reaching safepoint: 52118 ns, At safepoint: 9057 ns, Total: 61175 ns
+[2024-04-20T15:22:30.411+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 433970 ns, Reaching safepoint: 54472 ns, At safepoint: 8807 ns, Total: 63279 ns
+[2024-04-20T15:22:30.412+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 538045 ns, Reaching safepoint: 44112 ns, At safepoint: 2625 ns, Total: 46737 ns
+[2024-04-20T15:22:30.412+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 465430 ns, Reaching safepoint: 43671 ns, At safepoint: 9007 ns, Total: 52678 ns
+[2024-04-20T15:22:30.413+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 424764 ns, Reaching safepoint: 41347 ns, At safepoint: 8606 ns, Total: 49953 ns
+[2024-04-20T15:22:30.418+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 456623 ns, Reaching safepoint: 4455736 ns, At safepoint: 28633 ns, Total: 4484369 ns
+[2024-04-20T15:22:30.423+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 5581750 ns, Reaching safepoint: 91571 ns, At safepoint: 3667 ns, Total: 95238 ns
+[2024-04-20T15:22:30.424+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 674831 ns, Reaching safepoint: 48971 ns, At safepoint: 2755 ns, Total: 51726 ns
+[2024-04-20T15:22:30.424+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 465130 ns, Reaching safepoint: 40525 ns, At safepoint: 2635 ns, Total: 43160 ns
+[2024-04-20T15:22:30.435+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 9979037 ns, Reaching safepoint: 89026 ns, At safepoint: 3457 ns, Total: 92483 ns
+[2024-04-20T15:22:30.449+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 14603738 ns, Reaching safepoint: 99526 ns, At safepoint: 3506 ns, Total: 103032 ns
+[2024-04-20T15:22:30.628+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 177846040 ns, Reaching safepoint: 458647 ns, At safepoint: 11422 ns, Total: 470069 ns
+[2024-04-20T15:22:30.646+0000][7][safepoint   ] Safepoint "ICBufferFull", Time since last: 742717 ns, Reaching safepoint: 5214143 ns, At safepoint: 12497953 ns, Total: 17712096 ns
+[2024-04-20T15:22:30.719+0000][7][gc,heap,exit] Heap
+[2024-04-20T15:22:30.719+0000][7][gc,heap,exit]  garbage-first heap   total 262144K, used 139660K [0x00000000f0000000, 0x0000000100000000)
+[2024-04-20T15:22:30.719+0000][7][gc,heap,exit]   region size 4096K, 34 young (139264K), 2 survivors (8192K)
+[2024-04-20T15:22:30.719+0000][7][gc,heap,exit]  Metaspace       used 17862K, capacity 18320K, committed 18688K, reserved 1064960K
+[2024-04-20T15:22:30.719+0000][7][gc,heap,exit]   class space    used 2140K, capacity 2274K, committed 2304K, reserved 1048576K

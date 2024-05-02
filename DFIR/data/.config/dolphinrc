@@ -1,0 +1,13 @@
+[General]
+Version=201
+ViewPropsTimestamp=2024,4,14,21,1,11.753
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+VNC-0 XPosition 1278x1303=231
+VNC-0 XPosition 1503x1128=371
+VNC-0 XPosition 2358x1129=799
+VNC-0 YPosition 1278x1303=380
+VNC-0 YPosition 1503x1128=281
+VNC-0 YPosition 2358x1129=233
